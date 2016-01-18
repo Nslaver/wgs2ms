@@ -1,6 +1,6 @@
 {
   "name": "wgs2ms",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "WGS84 to MAGNA-Sirgas",
   "main": "index.js",
   "scripts": {
