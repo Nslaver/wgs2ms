@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "description": "WGS84 to MAGNA-Sirgas",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git:github.com/Nslaver/wgs2ms.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hans Burbano",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "proj": "2.3.12"
+  }
 }
