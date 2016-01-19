@@ -1,8 +1,7 @@
 {
   "name": "wgs2ms",
   "version": "0.1.0",
-  "description": "WGS84 to MAGNA-Sirgas",
-  "main": "index.js",
+  "description": "Command line tool to project from or to WGS84 in to MAGNA-Sirgas",
   "repository": {
     "type": "git",
     "url": "git:github.com/Nslaver/wgs2ms.git"
@@ -10,9 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hans Burbano",
+  "bin": {
+    "wgs2ms": "index.js"
+  },
+  "author": "Hans Burbano <hburbano@bbox.co>",
   "license": "MIT",
   "dependencies": {
-    "proj": "2.3.12"
+    "proj4": "2.3.12"
   }
 }
