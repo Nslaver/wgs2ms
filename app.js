@@ -1,5 +1,13 @@
+console.log('wgs2ms');
 var fs = require("fs");
 var proj4 = require("proj4");
+var cli = require('cli');
+
+cli.parse({
+    infile:   ['i', 'Input file name'],
+    outfile:  ['o', 'Output file name']
+  });
+
 
 var filename = "tests/lote102.json";
 var ESPG = [{
